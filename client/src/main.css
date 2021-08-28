@@ -1,0 +1,43 @@
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #424242;
+}
+
+a, a:hover {
+color: inherit;
+}
+
+
+.app_container {
+margin-top: 30px;
+}
+
+.root_loader {
+text-align: center;
+margin-top: 200px;
+}
+
+
+/*///// DASHBOARD TABLE /////////////*/
+
+.articles_table .action_btn{
+width: 100px;
+text-align: center;
+font-weight: 900;
+color: #fff;
+cursor: pointer;
+}
+
+.articles_table .edit_btn{ 
+background: #117a8b;
+}
+.articles_table .edit_btn:hover{ 
+background: #3d99a8;
+}
