@@ -9,7 +9,7 @@ const LineGraph = ({ metricId }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (metric && metric.timeGraph) {
+    if (metric && metric.timeGraph.length !== 0) {
       metric.timeGraph.map((item) => setState(item._id.timeSeries));
       if (metricId === metric.timeGraph[0]._id._id) setLoading(false);
     }

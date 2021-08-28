@@ -12,7 +12,7 @@ export const getPaginateMetrics = (page = 1, limit = 6) => {
       });
       dispatch(site.getPaginateMetrics(request.data));
     } catch (error) {
-      console.log(error.response.data.message);
+      // console.log(error.response.data.message);
     }
   };
 };
@@ -23,7 +23,7 @@ export const getMetricsById = (id) => {
       const request = await axios.get(`/api/metrics/${id}`);
       dispatch(site.getMetricsById(request.data));
     } catch (error) {
-      console.log(error.response.data.message);
+      // console.log(error.response.data.message);
     }
   };
 };
